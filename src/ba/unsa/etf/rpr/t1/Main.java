@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static int sumaCifara (int n) {
-        int suma = 0;
+        int s = 0;
         while (n != 0) {
-            suma += n % 10;
+            s += n % 10;
             n /= 10;
         }
-        return suma;
+        return s;
     }
 
     public static void main(String[] args) {
